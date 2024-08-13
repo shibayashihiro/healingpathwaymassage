@@ -32,5 +32,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 	astra_body_bottom();    
 	wp_footer(); 
 ?>
+<script type="javascript">
+document.getElementsByClassName('ast-header-button-1')[0].onclick = function(){
+ console.log('ok');
+}
+</script>
 	</body>
 </html>
